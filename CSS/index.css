@@ -1,0 +1,130 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: white;
+    padding: 40px 0;
+  }
+  
+  #about h2 {
+    text-align: center;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+  }
+  
+  /* Projects Section */
+  #projects {
+    background-color: #e2e2e2;
+    padding: 40px 0;
+  }
+  
+  #projects h2 {
+    text-align: center;
+  }
+  
+  #projects ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #projects ul li {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .project-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: white;
+    padding: 40px 0;
+  }
+  
+  #contact h2 {
+    text-align: center;
+  }
+  
+  #contact p {
+    text-align: center;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    margin: 0;
+    background-image: url('https://t3.ftcdn.net/jpg/04/91/04/52/360_F_491045263_MlMhthp1Fz1irD3wxVpWSQAKe9BIy1aD.jpg');
+  }
+  
+  .footer-image {
+    width: 50%;
+    height:50px;
+  }
+  
+  /* Title Icon */
+  link[rel="icon"] {
+    width: 32px;
+    height: 32px;
+  }
+  
